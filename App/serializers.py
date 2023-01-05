@@ -8,3 +8,4 @@ class TodoSerializer(serializers.ModelSerializer):
         fields = ['id', 'task_name', 'completed', 'description', 'is_deleted', 'created_at', 'updated_at']
         read_only_fields = ('id', 'created_at', 'updated_at', 'completed')
 
+
